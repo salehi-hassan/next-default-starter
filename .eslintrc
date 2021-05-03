@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "no-implicit-coercion": "error",
+    "no-eq-null": "error",
+    "no-undefined": "error"
+  }
+}
