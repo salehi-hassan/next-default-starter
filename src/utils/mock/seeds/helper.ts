@@ -1,7 +1,4 @@
 import { setToLocalStorage, getFromLocalStorage } from "utils/storage";
-import { v4 as uuidv4 } from "uuid";
-
-export { uuidv4 };
 
 export const randomSample = <T>(array: T[]): T =>
   array[Math.floor(Math.random() * array.length)];
